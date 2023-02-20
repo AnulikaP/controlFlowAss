@@ -21,12 +21,10 @@ if(classGroup == 'Science Subject'){
 //Question 5.
 // A program that takes a positive number (num) and finds the power of 2 nearest to that number. 
 
-let num = 30;
-let pwr = 2;
+let num = 80;
+let pwr = Math.pow(2, Math.round(Math.log2(num)));
+console.log('The number' + pwr + 'is the power of 2 nearest to' + num);
 
-while (num < 30){
-    
-}
-
+//The number64is the power of 2 nearest to80
 
 
